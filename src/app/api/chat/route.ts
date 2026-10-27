@@ -1,9 +1,11 @@
 import { GoogleGenAI, ThinkingLevel } from "@google/genai";
 import { NextResponse } from "next/server";
 
-const ai = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY,
-});
+function getGeminiClient(): GoogleGenAI | null {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) return null;
+  return new GoogleGenAI({ apiKey });
+}
 
 const SYSTEM_INSTRUCTION = `
 You are the official PhotoOS AI Assistant.
@@ -45,6 +47,14 @@ Do not output raw URLs unless specifically asked.
 
 export async function POST(request: Request) {
   try {
+    const ai = getGeminiClient();
+    if (!ai) {
+      return NextResponse.json(
+        { error: "AI Assistant is currently unavailable." },
+        { status: 503 },
+      );
+    }
+
     const body = await request.json();
 
     const message =
