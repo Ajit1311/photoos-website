@@ -48,7 +48,7 @@ export default function Header() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <Link
-            href={`${process.env.NEXT_PUBLIC_APP_URL}/login`}
+            href={`${process.env.NEXT_PUBLIC_APP_URL || "https://app.photoos.in"}/login`}
             className="rounded-full bg-[#0A3F61] px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[#0A3F61]/15 transition hover:-translate-y-0.5 hover:bg-[#3495A1]"
           >
             Login
@@ -81,7 +81,7 @@ export default function Header() {
 
             <div className="mt-3 border-t border-slate-100 pt-4">
               <Link
-                href={`${process.env.NEXT_PUBLIC_APP_URL}/login`}
+                href={`${process.env.NEXT_PUBLIC_APP_URL || "https://app.photoos.in"}/login`}
                 onClick={() => setOpen(false)}
                 className="block rounded-full bg-[#0A3F61] px-4 py-3 text-center text-sm font-semibold text-white"
               >

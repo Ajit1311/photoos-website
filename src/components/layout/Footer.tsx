@@ -21,7 +21,7 @@ const legalLinks = [
 
 export default function Footer() {
   const appUrl =
-    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+    process.env.NEXT_PUBLIC_APP_URL || "https://app.photoos.in";
 
   return (
     <footer className="bg-[#0A3F61] text-white">
