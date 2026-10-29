@@ -195,6 +195,12 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
 
+        {/* Google Tag Manager (gtm.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-N46CW2TV"
+        />
+
         {/* Google tag (gtag.js) */}
         <script
           async
@@ -217,6 +223,15 @@ export default function RootLayout({
         />
       </head>
       <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N46CW2TV"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         {children}
         <PhotoSecurityGuard />
         <PhotoOSChatbot />
