@@ -1,4 +1,5 @@
 import PhotoOSChatbot from "@/components/chat/PhotoOSChatbot";
+import PhotoSecurityGuard from "@/components/security/PhotoSecurityGuard";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
@@ -217,6 +218,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <PhotoSecurityGuard />
         <PhotoOSChatbot />
       </body>
     </html>

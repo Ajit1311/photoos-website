@@ -9,6 +9,7 @@ import ClientCollaborationSection from "@/components/home/ClientCollaborationSec
 import FreelancerMarketplaceSection from "@/components/home/FreelancerMarketplaceSection";
 import WorkflowTimeline from "@/components/home/WorkflowTimeline";
 import SecurityPrivacyCard from "@/components/home/SecurityPrivacyCard";
+import DownloadSecurityDemo from "@/components/home/DownloadSecurityDemo";
 import FAQSection from "@/components/home/FAQSection";
 import CallToActionSection from "@/components/home/CallToActionSection";
 
@@ -87,6 +88,9 @@ export default function HomePage() {
 
         {/* ENTERPRISE PRIVACY & SECURITY */}
         <SecurityPrivacyCard />
+
+        {/* SMART DOWNLOAD LOCK & SCREENSHOT GUARD DEMO */}
+        <DownloadSecurityDemo />
 
         {/* FREQUENTLY ASKED QUESTIONS (with FAQPage JSON-LD Schema) */}
         <FAQSection />
