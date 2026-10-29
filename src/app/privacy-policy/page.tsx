@@ -106,7 +106,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             <p>
-              <a href="mailto:hello@photoos.ai">hello@photoos.ai</a>
+              <a href="mailto:support@photoos.in">support@photoos.in</a>
             </p>
 
             <h2>6. Related Legal Documents</h2>

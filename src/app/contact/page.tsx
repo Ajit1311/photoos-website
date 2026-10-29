@@ -141,7 +141,7 @@ export default function ContactPage() {
 
             <div className="mt-8 space-y-4">
               <a
-                href="mailto:hello@photoos.ai"
+                href="mailto:support@photoos.in"
                 className="group flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-[#3495A1]/30 hover:shadow-xl hover:shadow-[#0A3F61]/5"
               >
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#0A3F61]/5 text-[#0A3F61]">
@@ -153,7 +153,7 @@ export default function ContactPage() {
                     Email
                   </span>
                   <span className="mt-1 block font-semibold text-[#0A3F61]">
-                    hello@photoos.ai
+                    support@photoos.in
                   </span>
                 </span>
 

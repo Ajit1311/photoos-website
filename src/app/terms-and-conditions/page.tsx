@@ -323,7 +323,7 @@ export default function TermsAndConditionsPage() {
               through PhotoOS for support and legal-compliance enquiries.
             </p>
             <p>
-              <a href="mailto:hello@photoos.ai">hello@photoos.ai</a>
+              <a href="mailto:support@photoos.in">support@photoos.in</a>
             </p>
           </div>
 
