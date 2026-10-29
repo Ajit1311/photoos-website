@@ -1,0 +1,46 @@
+# PhotoOS — AI-Powered Photography Studio Management Platform
+
+> PhotoOS (https://photoos.ai) is an all-in-one, AI-powered photography studio management platform designed for professional photographers, studios, creative teams, and clients.
+
+## Core Value Proposition
+PhotoOS replaces fragmented tools (Google Drive, WhatsApp, Dropbox, spreadsheets) with a unified operating system that handles client CRM, shoot planning, high-speed gallery hosting, AI face matching, photo-level client proofing, freelancer hiring, and final delivery.
+
+## Key Capabilities & Features
+
+### 1. AI Face Matching & Search Engine
+- **Selfie-to-Photo Matching**: Wedding and event guests upload or snap a single selfie to instantly discover all photographs they appear in out of thousands of high-resolution images in < 1 second.
+- **99.8% Neural Recognition**: Advanced facial clustering models handle varied lighting, angles, ethnic features, and accessories (turbans, sunglasses, traditional wedding attire).
+- **Privacy-Preserving**: Facial embeddings are sandboxed per event; guest biometric data is never monetized or used for public AI training.
+
+### 2. High-Resolution Smart Galleries
+- **Fast Global CDN**: Lightning-fast image loading with zero compression quality degradation for RAW and JPEG previews.
+- **Custom Studio Branding**: Customizable gallery themes, custom domains, studio watermarking, and personalized greeting banners.
+- **Granular Access & Privacy**: Password-protected galleries, private family PINs, and time-restricted download links.
+
+### 3. Interactive Client Photo Proofing & Selection
+- **Photo-Level Comments & Hearts**: Clients can favorite photos, leave exact cropping/retouching instructions, and approve albums in 1 click.
+- **Quota Enforcers**: Set strict selection quotas (e.g., "Select 80 photos for the print album").
+- **Lightroom Integration**: Export client-approved selection lists straight into Adobe Lightroom Classic, Capture One, or batch zip files.
+
+### 4. In-Gallery Client Communication
+- **Eliminates WhatsApp Confusion**: Centralized discussions connected directly to specific photo assets, eliminating lost revision notes and screenshot clutter.
+
+### 5. On-Demand Creative Freelancer Marketplace
+- **Hire Verified Pros**: Easily discover and book second shooters, drone/aerial cinematographers, and colorists/editors for busy wedding seasons.
+- **Verified Portfolios & Reviews**: Transparent equipment lists, reviews, ratings, and daily rates.
+
+### 6. Studio CRM & Workflow Management
+- **Lead to Delivery**: Manage bookings, shoot schedules, contracts, milestone payments, and automated client notifications.
+
+## Pricing & Availability
+- **Free Trial**: 7-day fully functional free trial available for photography studios.
+- **Studio Plans**: Flexible monthly and annual plans starting at ₹399/month.
+- **Support**: Official support available via support@photoos.in.
+
+## Relevant Links
+- Homepage: https://photoos.ai
+- Pricing: https://photoos.ai/pricing
+- Plan Comparison: https://photoos.ai/pricing/compare
+- Freelancer Portal: https://photoos.ai/freelancer
+- Blog & Guides: https://photoos.ai/blog
+- Contact Support: https://photoos.ai/contact

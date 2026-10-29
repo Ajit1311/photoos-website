@@ -16,23 +16,24 @@ import Footer from "@/components/layout/Footer";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact PhotoOS | AI-Powered Photography Management",
+  title: "Contact PhotoOS | Studio Sales, Product Demo & Support",
   description:
-    "Get in touch with PhotoOS for product enquiries, sales, support, partnerships and photography business solutions.",
+    "Get in touch with the PhotoOS team for product demos, studio onboarding, sales inquiries, partnerships, or customer support via support@photoos.in.",
   keywords: [
     "PhotoOS contact",
-    "photography software support",
-    "photography CRM support",
-    "AI photography software",
-    "photography studio management",
+    "contact PhotoOS support",
+    "book photography software demo",
+    "photography studio CRM support",
+    "AI photography support",
+    "support@photoos.in",
   ],
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact PhotoOS",
+    title: "Contact PhotoOS | Studio Sales, Product Demo & Support",
     description:
-      "Talk to PhotoOS about photography studio management, AI tools, client galleries and business solutions.",
+      "Talk to PhotoOS about photography studio management, AI face search, client galleries, and business solutions.",
     url: "/contact",
     siteName: "PhotoOS",
     type: "website",
@@ -41,15 +42,15 @@ export const metadata: Metadata = {
         url: "/logo/photoos-logo-v2.png",
         width: 445,
         height: 97,
-        alt: "PhotoOS - AI-Powered Photography Management Platform",
+        alt: "Contact PhotoOS Support & Sales",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact PhotoOS | AI-Powered Photography Management",
+    title: "Contact PhotoOS | Studio Sales, Product Demo & Support",
     description:
-      "Talk to PhotoOS about photography studio management, AI tools, client galleries and business solutions.",
+      "Talk to PhotoOS about photography studio management, AI face search, and client galleries.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

@@ -721,7 +721,7 @@ const visiblePlans = [
                         <div className="overflow-hidden rounded-[36px] bg-black">
                           <img
                             src="/images/photoos-client-app-home.png"
-                            alt="PhotoOS Client App home screen"
+                            alt="PhotoOS Client Mobile App interface for client gallery access and selfie face discovery"
                             className="block h-auto w-full"
                           />
                         </div>
@@ -1174,7 +1174,7 @@ const visiblePlans = [
                   <div className="relative overflow-hidden rounded-[36px]">
                     <img
                       src="/images/photo-editing.jpg"
-                      alt="Professional photographer working with photographs"
+                      alt="Professional studio photographer managing galleries and client photo selection in PhotoOS Studio"
                       className="h-[560px] w-full object-cover"
                     />
 

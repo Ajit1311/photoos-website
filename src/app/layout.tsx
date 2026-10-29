@@ -1,35 +1,47 @@
 import PhotoOSChatbot from "@/components/chat/PhotoOSChatbot";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 const siteUrl = "https://photoos.ai";
 const siteName = "PhotoOS";
 const siteDescription =
-  "PhotoOS is an AI-powered photography management platform that helps studios and photographers manage clients, projects, events, galleries, photos and delivery in one place.";
+  "PhotoOS is the premier AI-powered photography studio management platform. Featuring sub-second AI face matching, high-res client galleries, photo proofing & selection, studio CRM, and a creative freelancer network.";
+
+export const viewport: Viewport = {
+  themeColor: "#0A3F61",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "PhotoOS | AI-Powered Photography Management Platform",
+    default: "PhotoOS | AI-Powered Photography Studio Management Platform",
     template: "%s | PhotoOS",
   },
 
   description: siteDescription,
-
   applicationName: siteName,
+  authors: [{ name: "PhotoOS Technologies", url: siteUrl }],
+  creator: "PhotoOS Technologies",
+  publisher: "PhotoOS Technologies",
+  category: "technology",
 
   keywords: [
     "PhotoOS",
-    "photography management software",
-    "photography studio management",
     "AI photography software",
+    "photography studio management software",
+    "AI face matching for photographers",
+    "client photo gallery software",
+    "photo selection and proofing software",
     "photography CRM",
-    "photo gallery software",
-    "AI face search",
-    "photographer workflow",
-    "photography business software",
-    "client gallery software",
+    "wedding photography gallery",
+    "photographer workflow software",
+    "selfie face search",
+    "freelance photographer marketplace",
+    "photography business software India",
   ],
 
   alternates: {
@@ -37,15 +49,22 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/icon.png",
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
     shortcut: "/icon.png",
-    apple: "/icon.png",
+    apple: [
+      { url: "/apple-icon.png", sizes: "512x512", type: "image/png" },
+    ],
   },
 
+  manifest: "/manifest.webmanifest",
+
   openGraph: {
-    title: "PhotoOS | AI-Powered Photography Management Platform",
+    title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "Run your photography business smarter with AI-powered studio management, client galleries, collaboration and photo delivery.",
+      "Run your photography business smarter with AI-powered studio workflows, client galleries, instant selfie face matching, photo proofing, and delivery.",
     url: siteUrl,
     siteName,
     type: "website",
@@ -55,17 +74,18 @@ export const metadata: Metadata = {
         url: "/logo/photoos-logo-v2.png",
         width: 445,
         height: 97,
-        alt: "PhotoOS - AI-Powered Photography Management Platform",
+        alt: "PhotoOS - AI-Powered Photography Studio Management Platform",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "PhotoOS | AI-Powered Photography Management Platform",
+    title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "The intelligent platform for modern photography businesses.",
+      "The intelligent operating system for modern photography businesses. AI face matching, smart galleries, client proofing & CRM.",
     images: ["/logo/photoos-logo-v2.png"],
+    creator: "@photoos_ai",
   },
 
   robots: {
@@ -81,6 +101,80 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://photoos.ai/#organization",
+      name: "PhotoOS",
+      url: "https://photoos.ai",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://photoos.ai/logo/photoos-logo-v2.png",
+      },
+      email: "support@photoos.in",
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          email: "support@photoos.in",
+          contactType: "customer support",
+          availableLanguage: ["English", "Hindi", "Marathi"],
+        },
+      ],
+      description:
+        "PhotoOS provides AI-powered studio management software, client galleries, and facial recognition workflows for professional photographers.",
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://photoos.ai/#software",
+      name: "PhotoOS",
+      applicationCategory: "BusinessApplication, PhotographySoftware",
+      operatingSystem: "Web, iOS, Android",
+      description:
+        "AI-powered photography studio management platform with sub-second selfie face matching, high-res client galleries, photo proofing, CRM, and freelancer network.",
+      url: "https://photoos.ai",
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "INR",
+        lowPrice: "0",
+        highPrice: "1999",
+        offerCount: "4",
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "1250",
+        bestRating: "5",
+      },
+      featureList: [
+        "AI Face Matching & Facial Search for Event Guests",
+        "High-Resolution Branded Client Digital Galleries",
+        "Interactive Client Photo Proofing, Hearts & Notes",
+        "In-Gallery Direct Client Messaging",
+        "Creative Freelancer Network (Photographers, Videographers, Editors)",
+        "Studio CRM & Shoot Scheduling",
+        "Adobe Lightroom Selection Sync",
+        "Enterprise AES-256 Cloud Encryption & Privacy Control",
+      ],
+      provider: {
+        "@id": "https://photoos.ai/#organization",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://photoos.ai/#website",
+      url: "https://photoos.ai",
+      name: "PhotoOS",
+      description:
+        "AI-Powered Photography Studio Management Platform",
+      publisher: {
+        "@id": "https://photoos.ai/#organization",
+      },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -88,6 +182,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>
         {children}
         <PhotoOSChatbot />

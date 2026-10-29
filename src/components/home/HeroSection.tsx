@@ -227,7 +227,7 @@ export default function HeroSection() {
                   <div className="group relative overflow-hidden rounded-2xl border border-white/15 bg-slate-900">
                     <Image
                       src="/images/hero-wedding.jpg"
-                      alt="Wedding couple portrait"
+                      alt="PhotoOS AI Face Matching feature scanning wedding couple portrait in gallery"
                       width={500}
                       height={400}
                       className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105"
@@ -251,7 +251,7 @@ export default function HeroSection() {
                   <div className="group relative overflow-hidden rounded-2xl border border-white/15 bg-slate-900">
                     <Image
                       src="/images/client-collaboration.jpg"
-                      alt="Client photo review"
+                      alt="PhotoOS interactive client photo proofing and album selection preview"
                       width={500}
                       height={400}
                       className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105"

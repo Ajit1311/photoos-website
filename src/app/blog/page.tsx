@@ -7,24 +7,25 @@ import { ArrowRight, BookOpen, Clock3 } from "lucide-react";
 import { blogPosts } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
-  title: "Photography & AI Blog",
+  title: "Photography & AI Studio Blog | Guides & Workflow Insights",
   description:
-    "Practical insights on AI photography, client galleries, photography CRM, mobile client apps and photography business marketing from PhotoOS.",
+    "Expert guides, tutorials, and practical insights on AI face search, client galleries, photography studio CRM, mobile apps, and business growth from PhotoOS.",
   keywords: [
-    "photography blog",
-    "AI photography",
-    "photography CRM",
-    "client gallery",
-    "photography business marketing",
-    "photo management software",
+    "photography business blog",
+    "AI photography guides",
+    "photography CRM guide",
+    "client photo gallery best practices",
+    "photography studio marketing",
+    "AI face match tutorials",
+    "PhotoOS blog",
   ],
   alternates: {
     canonical: "/blog",
   },
   openGraph: {
-    title: "Photography & AI Blog",
+    title: "Photography & AI Studio Blog | PhotoOS",
     description:
-      "Explore practical guides for photographers and studios covering AI, client galleries, CRM, mobile experiences and growth.",
+      "Expert guides and practical tutorials for photography studios covering AI, client galleries, CRM, and business growth.",
     url: "/blog",
     type: "website",
     images: [
@@ -32,15 +33,15 @@ export const metadata: Metadata = {
         url: "/logo/photoos-logo-v2.png",
         width: 445,
         height: 97,
-        alt: "PhotoOS - AI-Powered Photography Management Platform",
+        alt: "PhotoOS Photography & AI Blog",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Photography & AI Blog",
+    title: "Photography & AI Studio Blog | PhotoOS",
     description:
-      "Explore practical guides for photographers and studios covering AI, client galleries, CRM, mobile experiences and growth.",
+      "Expert guides and practical tutorials for photography studios covering AI, client galleries, CRM, and business growth.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

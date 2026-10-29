@@ -9,23 +9,26 @@ import ClientCollaborationSection from "@/components/home/ClientCollaborationSec
 import FreelancerMarketplaceSection from "@/components/home/FreelancerMarketplaceSection";
 import WorkflowTimeline from "@/components/home/WorkflowTimeline";
 import SecurityPrivacyCard from "@/components/home/SecurityPrivacyCard";
+import FAQSection from "@/components/home/FAQSection";
 import CallToActionSection from "@/components/home/CallToActionSection";
 
 export const metadata: Metadata = {
   title: "PhotoOS | AI-Powered Photography Studio Management Platform",
   description:
-    "Manage your photography studio, clients, projects, events, galleries, photo selection and delivery with PhotoOS, an AI-powered photography management platform.",
+    "PhotoOS is the premier AI-powered photography studio management platform. Featuring sub-second selfie face matching, high-res client galleries, photo proofing & selection, studio CRM, and a creative freelancer network.",
   keywords: [
     "PhotoOS",
     "photography studio management software",
-    "photography management platform",
-    "photography CRM",
     "AI photography software",
-    "photo gallery software",
-    "AI face search",
-    "photographer workflow",
-    "client photo selection",
-    "photographer gallery proofing",
+    "AI face matching for photographers",
+    "client photo gallery software",
+    "photo selection and proofing software",
+    "photography CRM",
+    "wedding photography gallery software",
+    "photographer workflow management",
+    "selfie face search for events",
+    "freelance photographer marketplace",
+    "photography business software India",
   ],
   alternates: {
     canonical: "/",
@@ -33,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "Manage your photography business with AI-powered studio workflows, client collaboration, galleries, photo selection and delivery.",
+      "Manage your photography business with AI-powered studio workflows, client collaboration, galleries, instant selfie face matching, photo proofing, and delivery.",
     url: "/",
     siteName: "PhotoOS",
     type: "website",
@@ -50,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "AI-powered studio management, client galleries, collaboration and photo delivery for modern photography businesses.",
+      "The intelligent operating system for modern photography businesses. AI face matching, smart galleries, client proofing & CRM.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };
@@ -84,6 +87,9 @@ export default function HomePage() {
 
         {/* ENTERPRISE PRIVACY & SECURITY */}
         <SecurityPrivacyCard />
+
+        {/* FREQUENTLY ASKED QUESTIONS (with FAQPage JSON-LD Schema) */}
+        <FAQSection />
 
         {/* FINAL CALL TO ACTION */}
         <CallToActionSection />

@@ -39,7 +39,7 @@ export default function ClientCollaborationSection() {
               <div className="relative h-[380px] sm:h-[480px] w-full overflow-hidden rounded-[24px]">
                 <Image
                   src="/images/client-collaboration.jpg"
-                  alt="Clients reviewing photography proofing together"
+                  alt="Photography clients and studio reviewing album photo proofing and leaving comments in PhotoOS"
                   fill
                   className="object-cover"
                 />

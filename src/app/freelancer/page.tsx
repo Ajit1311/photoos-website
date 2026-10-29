@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
+import type { Metadata } from "next";
 import {
   ArrowRight,
   BadgeCheck,
@@ -13,6 +14,45 @@ import {
 } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+
+export const metadata: Metadata = {
+  title: "Freelancer Creative Network | Hire Photographers & Editors",
+  description:
+    "Join or hire from the PhotoOS Freelancer Marketplace. Connect with verified second shooters, wedding cinematographers, drone pilots, and photo editors for studios.",
+  keywords: [
+    "freelance photographer network",
+    "hire second shooter",
+    "wedding cinematographer marketplace",
+    "drone pilot for photography",
+    "freelance photo editor",
+    "PhotoOS creative network",
+  ],
+  alternates: {
+    canonical: "/freelancer",
+  },
+  openGraph: {
+    title: "Freelancer Creative Network | PhotoOS",
+    description:
+      "Connect with verified second shooters, wedding cinematographers, drone pilots, and photo editors on PhotoOS.",
+    url: "/freelancer",
+    type: "website",
+    images: [
+      {
+        url: "/logo/photoos-logo-v2.png",
+        width: 445,
+        height: 97,
+        alt: "PhotoOS Freelancer Creative Network",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Freelancer Creative Network | PhotoOS",
+    description:
+      "Join or hire from the PhotoOS Freelancer Marketplace for photography studios.",
+    images: ["/logo/photoos-logo-v2.png"],
+  },
+};
 
 const benefits = [
   {

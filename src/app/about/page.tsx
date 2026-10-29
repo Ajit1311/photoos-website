@@ -18,31 +18,40 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "About PhotoOS | AI-Powered Photography Management",
+  title: "About PhotoOS | Built for Modern Photography Studios",
   description:
-    "Learn about PhotoOS, an AI-powered photography management platform built to help studios manage clients, projects, galleries, collaboration, photo selection and delivery.",
+    "Learn about PhotoOS — the AI-powered operating system uniting photography studio management, client galleries, instant selfie face matching, and creative collaboration.",
   keywords: [
     "about PhotoOS",
-    "photography management software",
-    "photography studio management",
-    "AI photography software",
-    "photography CRM",
+    "photography studio management software",
+    "AI photography platform",
+    "photography CRM software",
+    "photo studio technology",
+    "AI face match for studios",
   ],
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About PhotoOS | AI-Powered Photography Management",
+    title: "About PhotoOS | Built for Modern Photography Studios",
     description:
-      "Learn how PhotoOS brings photography studio management, client collaboration, galleries and AI-powered workflows together.",
+      "Learn how PhotoOS empowers studios and photographers with AI workflows, smart client galleries, and seamless photo delivery.",
     url: "/about",
     type: "website",
+    images: [
+      {
+        url: "/logo/photoos-logo-v2.png",
+        width: 445,
+        height: 97,
+        alt: "About PhotoOS Platform",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About PhotoOS | AI-Powered Photography Management",
+    title: "About PhotoOS | Built for Modern Photography Studios",
     description:
-      "Learn about the AI-powered platform built for modern photography businesses.",
+      "Learn how PhotoOS empowers studios and photographers with AI workflows, smart client galleries, and seamless photo delivery.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };
@@ -225,7 +234,7 @@ export default function AboutPage() {
               <div className="relative overflow-hidden rounded-[34px]">
                 <img
                   src="/images/photo-editing.jpg"
-                  alt="Professional photographer working with photographs"
+                  alt="Professional photographer editing photographs and managing client workflow using PhotoOS software"
                   className="h-[570px] w-full object-cover"
                 />
 

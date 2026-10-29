@@ -46,7 +46,7 @@ export default function Footer() {
             >
               <Image
                 src="/logo/photoos-footer-logo-white.png"
-                alt="PhotoOS"
+                alt="PhotoOS - AI Photography Studio Management Software"
                 width={512}
                 height={128}
                 className="h-auto w-[180px] object-contain"
