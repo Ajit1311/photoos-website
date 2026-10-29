@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://photoos.ai";
+  const baseUrl = "https://photoos.in";
   const now = new Date();
 
   const coreRoutes = [

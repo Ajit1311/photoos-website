@@ -85,22 +85,22 @@ export default async function BlogPostPage({ params }: Props) {
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
-    image: [`https://photoos.ai${post.image}`],
+    image: [`https://photoos.in${post.image}`],
     datePublished: post.date,
     dateModified: post.date,
     author: {
       "@type": "Organization",
       name: "PhotoOS",
-      url: "https://photoos.ai",
+      url: "https://photoos.in",
     },
     publisher: {
       "@type": "Organization",
       name: "PhotoOS",
-      url: "https://photoos.ai",
+      url: "https://photoos.in",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://photoos.ai/blog/${post.slug}`,
+      "@id": `https://photoos.in/blog/${post.slug}`,
     },
     keywords: post.keywords.join(", "),
   };

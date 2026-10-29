@@ -2,7 +2,7 @@ import PhotoOSChatbot from "@/components/chat/PhotoOSChatbot";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const siteUrl = "https://photoos.ai";
+const siteUrl = "https://photoos.in";
 const siteName = "PhotoOS";
 const siteDescription =
   "PhotoOS is the premier AI-powered photography studio management platform. Featuring sub-second AI face matching, high-res client galleries, photo proofing & selection, studio CRM, and a creative freelancer network.";
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
     description:
       "The intelligent operating system for modern photography businesses. AI face matching, smart galleries, client proofing & CRM.",
     images: ["/logo/photoos-logo-v2.png"],
-    creator: "@photoos_ai",
+    creator: "@photoos_in",
   },
 
   robots: {
@@ -106,12 +106,12 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://photoos.ai/#organization",
+      "@id": "https://photoos.in/#organization",
       name: "PhotoOS",
-      url: "https://photoos.ai",
+      url: "https://photoos.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://photoos.ai/logo/photoos-logo-v2.png",
+        url: "https://photoos.in/logo/photoos-logo-v2.png",
       },
       email: "support@photoos.in",
       contactPoint: [
@@ -127,13 +127,13 @@ const jsonLd = {
     },
     {
       "@type": "SoftwareApplication",
-      "@id": "https://photoos.ai/#software",
+      "@id": "https://photoos.in/#software",
       name: "PhotoOS",
       applicationCategory: "BusinessApplication, PhotographySoftware",
       operatingSystem: "Web, iOS, Android",
       description:
         "AI-powered photography studio management platform with sub-second selfie face matching, high-res client galleries, photo proofing, CRM, and freelancer network.",
-      url: "https://photoos.ai",
+      url: "https://photoos.in",
       offers: {
         "@type": "AggregateOffer",
         priceCurrency: "INR",
@@ -158,18 +158,18 @@ const jsonLd = {
         "Enterprise AES-256 Cloud Encryption & Privacy Control",
       ],
       provider: {
-        "@id": "https://photoos.ai/#organization",
+        "@id": "https://photoos.in/#organization",
       },
     },
     {
       "@type": "WebSite",
-      "@id": "https://photoos.ai/#website",
-      url: "https://photoos.ai",
+      "@id": "https://photoos.in/#website",
+      url: "https://photoos.in",
       name: "PhotoOS",
       description:
         "AI-Powered Photography Studio Management Platform",
       publisher: {
-        "@id": "https://photoos.ai/#organization",
+        "@id": "https://photoos.in/#organization",
       },
     },
   ],

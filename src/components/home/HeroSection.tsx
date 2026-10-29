@@ -186,7 +186,7 @@ export default function HeroSection() {
                   <span className="h-3 w-3 rounded-full bg-amber-500/80" />
                   <span className="h-3 w-3 rounded-full bg-emerald-500/80" />
                   <span className="ml-2 hidden text-xs font-medium text-slate-400 sm:inline-block">
-                    photoos.ai/studio/gallery-pro
+                    photoos.in/studio/gallery-pro
                   </span>
                 </div>
 

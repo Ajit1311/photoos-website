@@ -34,7 +34,7 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: "https://photoos.ai/sitemap.xml",
-    host: "https://photoos.ai",
+    sitemap: "https://photoos.in/sitemap.xml",
+    host: "https://photoos.in",
   };
 }

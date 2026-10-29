@@ -1,6 +1,6 @@
 # PhotoOS — AI-Powered Photography Studio Management Platform
 
-> PhotoOS (https://photoos.ai) is an all-in-one, AI-powered photography studio management platform designed for professional photographers, studios, creative teams, and clients.
+> PhotoOS (https://photoos.in) is an all-in-one, AI-powered photography studio management platform designed for professional photographers, studios, creative teams, and clients.
 
 ## Core Value Proposition
 PhotoOS replaces fragmented tools (Google Drive, WhatsApp, Dropbox, spreadsheets) with a unified operating system that handles client CRM, shoot planning, high-speed gallery hosting, AI face matching, photo-level client proofing, freelancer hiring, and final delivery.
@@ -38,9 +38,9 @@ PhotoOS replaces fragmented tools (Google Drive, WhatsApp, Dropbox, spreadsheets
 - **Support**: Official support available via support@photoos.in.
 
 ## Relevant Links
-- Homepage: https://photoos.ai
-- Pricing: https://photoos.ai/pricing
-- Plan Comparison: https://photoos.ai/pricing/compare
-- Freelancer Portal: https://photoos.ai/freelancer
-- Blog & Guides: https://photoos.ai/blog
-- Contact Support: https://photoos.ai/contact
+- Homepage: https://photoos.in
+- Pricing: https://photoos.in/pricing
+- Plan Comparison: https://photoos.in/pricing/compare
+- Freelancer Portal: https://photoos.in/freelancer
+- Blog & Guides: https://photoos.in/blog
+- Contact Support: https://photoos.in/contact
