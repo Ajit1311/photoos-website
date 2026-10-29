@@ -1,5 +1,4 @@
 import PhotoOSChatbot from "@/components/chat/PhotoOSChatbot";
-import Script from "next/script";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
@@ -189,22 +188,21 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Google tag (gtag.js) */}
-        <Script
-          strategy="afterInteractive"
+        <script
+          async
           src="https://www.googletagmanager.com/gtag/js?id=G-6DDPEYLZSB"
         />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-        >
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
 
-            gtag('config', 'G-6DDPEYLZSB');
-          `}
-        </Script>
+              gtag('config', 'G-6DDPEYLZSB');
+            `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
