@@ -224,13 +224,14 @@ export default function HeroSection() {
                 {/* Photo Gallery Grid Showcase */}
                 <div className="mt-4 grid grid-cols-2 gap-3">
                   {/* Photo 1: AI Face Scan Spotlight */}
-                  <div className="group relative overflow-hidden rounded-2xl border border-white/15 bg-slate-900">
+                  <div className="group relative overflow-hidden rounded-2xl border border-white/15 bg-slate-900 select-none">
+                    <div className="photo-shield" />
                     <Image
                       src="/images/hero-wedding.jpg"
                       alt="PhotoOS AI Face Matching feature scanning wedding couple portrait in gallery"
                       width={500}
                       height={400}
-                      className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105"
+                      className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105 pointer-events-none"
                     />
                     {/* Face Scan Bounding Box Overlay */}
                     <div className="absolute top-8 left-10 h-24 w-24 sm:h-28 sm:w-28 rounded-lg border-2 border-[#3495A1] shadow-[0_0_15px_rgba(52,149,161,0.5)]">
@@ -248,13 +249,14 @@ export default function HeroSection() {
                   </div>
 
                   {/* Photo 2: Client Collaboration / Selected Photo */}
-                  <div className="group relative overflow-hidden rounded-2xl border border-white/15 bg-slate-900">
+                  <div className="group relative overflow-hidden rounded-2xl border border-white/15 bg-slate-900 select-none">
+                    <div className="photo-shield" />
                     <Image
                       src="/images/client-collaboration.jpg"
                       alt="PhotoOS interactive client photo proofing and album selection preview"
                       width={500}
                       height={400}
-                      className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105"
+                      className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105 pointer-events-none"
                     />
 
                     {/* Approved Badge */}

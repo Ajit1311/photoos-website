@@ -154,6 +154,16 @@ export default function DownloadSecurityDemo() {
               className="group relative h-[340px] sm:h-[440px] w-full overflow-hidden rounded-2xl border border-white/15 bg-slate-950 select-none"
               style={{ WebkitUserSelect: "none" }}
             >
+              {/* Invisible Click & Context Protection Shield */}
+              <div
+                className="photo-shield cursor-not-allowed"
+                onContextMenu={handleTestRightClick}
+                onClick={() => {
+                  setScreenshotBlockedToast(true);
+                  setTimeout(() => setScreenshotBlockedToast(false), 3000);
+                }}
+              />
+
               <Image
                 src="/images/hero-wedding.jpg"
                 alt="PhotoOS Wedding Gallery Preview with Download Lock"

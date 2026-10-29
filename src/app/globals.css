@@ -34,6 +34,28 @@ body {
   color: #ffffff;
 }
 
+/* Bulletproof Media & Screenshot Protection */
+img, video, canvas, [data-protected="true"] {
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-user-drag: none !important;
+  user-drag: none !important;
+}
+
+.photo-shield {
+  position: absolute;
+  inset: 0;
+  z-index: 15;
+  background: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
