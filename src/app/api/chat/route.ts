@@ -45,8 +45,41 @@ Keep the answer concise.
 Do not output raw URLs unless specifically asked.
 `;
 
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const windowMs = 60 * 1000; // 1 minute
+  const maxRequests = 20;
+
+  const record = rateLimitMap.get(ip);
+  if (!record || now > record.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + windowMs });
+    return false;
+  }
+
+  if (record.count >= maxRequests) {
+    return true;
+  }
+
+  record.count += 1;
+  return false;
+}
+
 export async function POST(request: Request) {
   try {
+    const ip =
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      request.headers.get("x-real-ip") ||
+      "anonymous";
+
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: "Too many requests. Please wait a minute before sending more messages." },
+        { status: 429 },
+      );
+    }
+
     const ai = getGeminiClient();
     if (!ai) {
       return NextResponse.json(
@@ -63,6 +96,13 @@ export async function POST(request: Request) {
     if (!message) {
       return NextResponse.json(
         { error: "Message is required." },
+        { status: 400 },
+      );
+    }
+
+    if (message.length > 1000) {
+      return NextResponse.json(
+        { error: "Message is too long. Please keep queries under 1,000 characters." },
         { status: 400 },
       );
     }
