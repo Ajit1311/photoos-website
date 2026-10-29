@@ -47,6 +47,26 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
 
+  async redirects() {
+    return [
+      {
+        source: "/ops-console",
+        destination: "https://app.photoos.in/ops-console",
+        permanent: false,
+      },
+      {
+        source: "/ops-console/:path*",
+        destination: "https://app.photoos.in/ops-console/:path*",
+        permanent: false,
+      },
+      {
+        source: "/admin/:path*",
+        destination: "https://app.photoos.in/admin/:path*",
+        permanent: false,
+      },
+    ];
+  },
+
   async headers() {
     return [
       {
