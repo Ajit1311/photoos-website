@@ -88,6 +88,10 @@ export const metadata: Metadata = {
     creator: "@photoos_in",
   },
 
+  verification: {
+    google: "googleb971c67a11b2ebf2",
+  },
+
   robots: {
     index: true,
     follow: true,
