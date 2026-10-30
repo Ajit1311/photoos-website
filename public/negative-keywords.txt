@@ -1,0 +1,114 @@
+# ==============================================================================
+# PhotoOS (photoos.in) — Google Ads / PPC Negative Keywords Master List
+# Ready to copy-paste into Google Ads > Shared Library > Negative Keyword Lists
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Free / Piracy (Zero Buying Intent - Budget Wasters)
+# ------------------------------------------------------------------------------
+crack
+cracked
+mod apk
+apk download
+pirated
+torrent
+free download
+keygen
+hack
+open source
+github
+
+# ------------------------------------------------------------------------------
+# 2. Photo Editing Software (Wrong Intent - Looking for Photoshop / Filters)
+# ------------------------------------------------------------------------------
+photoshop
+lightroom
+canva
+snapseed
+picsart
+photo editor app
+background remover
+photo enhancer
+passport photo maker
+filters
+
+# ------------------------------------------------------------------------------
+# 3. Face Recognition (Non-Photography / Tech / Security)
+# ------------------------------------------------------------------------------
+attendance
+CCTV
+security system
+door lock
+face unlock
+face swap
+deepfake
+face app
+age filter
+lookalike
+face detection python
+opencv
+API tutorial
+
+# ------------------------------------------------------------------------------
+# 4. End Clients / Consumers (Looking to Hire Photographers, Not Buy Software)
+# ------------------------------------------------------------------------------
+photographer near me
+wedding photographer price
+wedding photography packages
+pre wedding shoot
+photo studio near me
+book photographer
+baby shoot
+album design
+photo frame
+photo printing
+passport photo
+
+# ------------------------------------------------------------------------------
+# 5. Hardware / Camera Learning & Tips
+# ------------------------------------------------------------------------------
+camera
+DSLR
+mirrorless
+lens
+tripod
+photography course
+photography classes
+learn photography
+photography tips
+wedding poses
+wedding captions
+
+# ------------------------------------------------------------------------------
+# 6. Stock Photos / Wallpapers
+# ------------------------------------------------------------------------------
+stock photos
+free images
+wallpaper
+HD images
+royalty free
+shutterstock
+unsplash
+
+# ------------------------------------------------------------------------------
+# 7. Generic Consumer Cloud Storage & Social Media
+# ------------------------------------------------------------------------------
+google photos
+google drive
+icloud
+dropbox
+instagram
+whatsapp status
+facebook
+photo storage free
+
+# ------------------------------------------------------------------------------
+# 8. Competitor Support / Existing Users (Non-Converting Traffic)
+# ------------------------------------------------------------------------------
+Kwikpic login
+FotoOwl login
+Kwikpic customer care
+FotoOwl support
+Kwikpic download
+delete account
+refund
