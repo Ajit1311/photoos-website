@@ -173,6 +173,8 @@ export default function CorporatePage() {
                 <div className="mt-8 flex flex-col gap-3.5 sm:flex-row sm:items-center">
                   <a
                     href={corpLoginUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden rounded-full bg-gradient-to-r from-[#EF8619] to-[#f4932b] px-8 py-4 text-base font-bold text-white shadow-xl shadow-[#EF8619]/25 transition duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#EF8619]/40 active:scale-[0.99]"
                   >
                     <span>Start Corporate Free Trial</span>
@@ -489,6 +491,8 @@ export default function CorporatePage() {
                 <div className="shrink-0">
                   <a
                     href={corpLoginUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3.5 text-xs font-bold text-[#061826] hover:bg-slate-100 transition-all shadow-xl"
                   >
                     <span>Start Free Trial</span>
@@ -527,6 +531,8 @@ export default function CorporatePage() {
             <div className="mt-10 flex flex-col justify-center gap-3.5 sm:flex-row sm:items-center">
               <a
                 href={corpLoginUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden rounded-full bg-gradient-to-r from-[#EF8619] to-[#ff9e3b] px-9 py-4 text-base font-bold text-white shadow-xl shadow-[#EF8619]/30 transition duration-300 hover:scale-[1.02] active:scale-[0.99]"
               >
                 <span>Start Corporate Free Trial</span>

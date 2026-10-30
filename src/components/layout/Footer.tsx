@@ -204,6 +204,8 @@ export default function Footer() {
             <div className="mt-5 flex flex-col gap-3">
               <a
                 href={`${appUrl}/login`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#EF8619] px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-[#EF8619]/20 transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-[#0A3F61]"
               >
                 Sign In to Studio

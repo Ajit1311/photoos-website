@@ -102,6 +102,8 @@ export default function Header() {
         <div className="hidden items-center gap-3 lg:flex">
           <Link
             href={loginUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-xs font-semibold text-slate-700 transition hover:text-[#0A3F61]"
           >
             Studio Login
@@ -160,6 +162,8 @@ export default function Header() {
               <div className="mt-4 flex flex-col gap-2.5 border-t border-slate-100 pt-4">
                 <Link
                   href={loginUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={() => setOpen(false)}
                   className="block rounded-xl border border-slate-200 bg-white px-4 py-3 text-center text-sm font-semibold text-slate-800 shadow-xs"
                 >

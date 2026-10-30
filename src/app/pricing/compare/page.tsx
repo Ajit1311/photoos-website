@@ -888,6 +888,8 @@ export default function ComparePlansPage() {
                       >
                         <Link
                           href={`${process.env.NEXT_PUBLIC_APP_URL || "https://app.photoos.in"}/login?planId=${encodeURIComponent(plan.id)}&planCode=${encodeURIComponent(plan.plan_code)}&billingCycle=${encodeURIComponent(plan.billing_cycle)}${plan.price === 0 && plan.trial_days > 0 ? "&mode=trial" : ""}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#0A3F61] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#EF8619]"
                         >
                           {plan.price === 0 &&
