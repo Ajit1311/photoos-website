@@ -115,3 +115,4 @@ This document outlines the **Negative Keyword Lists** for PhotoOS marketing camp
 2. Click **+** (Create List), name it `PhotoOS Master Negative List`.
 3. Copy-paste the content from `public/negative-keywords.txt`.
 4. Apply the list to all **Search** and **Performance Max** campaigns.
+

@@ -1507,7 +1507,7 @@ const visiblePlans = [
 
 
                         <Link
-                          href={`${process.env.NEXT_PUBLIC_APP_URL || "https://app.photoos.in"}/onboarding/studio?planId=${encodeURIComponent(plan.raw.id)}&planCode=${encodeURIComponent(plan.raw.plan_code)}&billingCycle=${encodeURIComponent(plan.raw.billing_cycle)}${plan.raw.price === 0 && plan.raw.trial_days > 0 ? "&mode=trial" : ""}`}
+                          href={`${process.env.NEXT_PUBLIC_APP_URL || "https://app.photoos.in"}/login?planId=${encodeURIComponent(plan.raw.id)}&planCode=${encodeURIComponent(plan.raw.plan_code)}&billingCycle=${encodeURIComponent(plan.raw.billing_cycle)}${plan.raw.price === 0 && plan.raw.trial_days > 0 ? "&mode=trial" : ""}`}
                           className={`mt-8 inline-flex items-center justify-center gap-2 rounded-full px-5 py-3.5 text-sm font-bold ${
                             plan.popular
                               ? "bg-[#EF8619] text-white hover:bg-white hover:text-[#0A3F61]"
