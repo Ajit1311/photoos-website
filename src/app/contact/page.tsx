@@ -156,10 +156,10 @@ export default function ContactPage() {
 
                 <span>
                   <span className="block text-xs font-bold uppercase tracking-wider text-emerald-600">
-                    WhatsApp & Call
+                    WhatsApp Support
                   </span>
                   <span className="mt-1 block font-bold text-slate-900">
-                    +91 9699599142
+                    Chat on WhatsApp
                   </span>
                 </span>
 

@@ -291,7 +291,7 @@ const clearChat = () => {
       q.includes("phone") ||
       q.includes("call")
     ) {
-      return "You can reach the PhotoOS team directly via WhatsApp at +91 9699599142 or email support@photoos.in. You can also choose 'Talk to a human' to share your details.";
+      return "You can reach the PhotoOS team directly via WhatsApp or email at support@photoos.in. You can also choose 'Talk to a human' to share your details.";
     }
 
     return fallbackResponse;
