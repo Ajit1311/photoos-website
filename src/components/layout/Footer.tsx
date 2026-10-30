@@ -5,6 +5,7 @@ import { ShieldCheck, Sparkles, ArrowRight, Mail, MapPin } from "lucide-react";
 const productLinks = [
   { label: "Smart Galleries", href: "/#features" },
   { label: "AI Face Search", href: "/#ai" },
+  { label: "Corporate Office Events", href: "/corporate" },
   { label: "Client Collaboration", href: "/#collaboration" },
   { label: "Freelancer Marketplace", href: "/#marketplace" },
   { label: "Pricing & Plans", href: "/pricing" },

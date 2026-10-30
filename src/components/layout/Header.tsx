@@ -11,6 +11,7 @@ const navigation = [
   { label: "Home", href: "/" },
   { label: "Features", href: "/#features" },
   { label: "AI Face Search", href: "/#ai" },
+  { label: "Corporate", href: "/corporate" },
   { label: "Pricing", href: "/pricing" },
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
