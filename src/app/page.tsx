@@ -16,7 +16,7 @@ import CallToActionSection from "@/components/home/CallToActionSection";
 export const metadata: Metadata = {
   title: "PhotoOS | AI-Powered Photography Studio Management Platform",
   description:
-    "PhotoOS is the premier AI-powered photography studio management platform. Featuring sub-second selfie face matching, high-res client galleries, photo proofing & selection, studio CRM, and a creative freelancer network.",
+    "PhotoOS is an AI photography studio platform with instant face match galleries, client proofing, CRM, and freelancer network for modern photographers.",
   keywords: [
     "PhotoOS",
     "photography studio management software",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "Manage your photography business with AI-powered studio workflows, client collaboration, galleries, instant selfie face matching, photo proofing, and delivery.",
+      "Manage your photography studio with AI-powered workflows, client galleries, instant face matching, photo proofing, CRM, and creative freelancer hiring.",
     url: "/",
     siteName: "PhotoOS",
     type: "website",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "The intelligent operating system for modern photography businesses. AI face matching, smart galleries, client proofing & CRM.",
+      "The intelligent operating system for modern photography businesses. AI face matching, smart galleries, client proofing, and studio CRM tools.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

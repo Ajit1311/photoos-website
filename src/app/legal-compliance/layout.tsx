@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Legal & Compliance | PhotoOS",
   description:
-    "Review legal compliance, terms of service agreements, privacy standards, and user policies for PhotoOS.",
+    "Review legal compliance, privacy safeguards, terms of service agreements, and enterprise security certifications for the PhotoOS photography platform.",
   alternates: {
     canonical: "/legal-compliance",
   },

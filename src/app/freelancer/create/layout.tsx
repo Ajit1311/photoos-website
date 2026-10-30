@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Create Freelancer Profile | PhotoOS Marketplace",
   description:
-    "Register as a freelance photographer, cinematographer, drone pilot, or editor on PhotoOS. Showcase your portfolio and get hired by top photography studios.",
+    "Register as a freelance photographer, cinematographer, drone pilot, or editor on PhotoOS. Showcase your portfolio and get hired by top photo studios.",
   keywords: [
     "freelance photographer registration",
     "join photography marketplace",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Create Freelancer Profile | PhotoOS",
     description:
-      "Join the PhotoOS Freelancer Marketplace and get booked by professional photography studios.",
+      "Register as a freelance photographer, cinematographer, drone pilot, or editor on PhotoOS. Showcase your portfolio and get hired by top photo studios.",
     url: "/freelancer/create",
     type: "website",
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Create Freelancer Profile | PhotoOS",
     description:
-      "Join the PhotoOS Freelancer Marketplace and get booked by professional photography studios.",
+      "Register as a freelance photographer, cinematographer, drone pilot, or editor on PhotoOS. Showcase your portfolio and get hired by top photo studios.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

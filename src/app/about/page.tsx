@@ -20,7 +20,7 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "About PhotoOS | Built for Modern Photography Studios",
   description:
-    "Learn about PhotoOS — the AI-powered operating system uniting photography studio management, client galleries, instant selfie face matching, and creative collaboration.",
+    "Learn how PhotoOS empowers photographers with AI studio management, sub-second face matching, client proofing galleries, and creative team collaboration.",
   keywords: [
     "about PhotoOS",
     "photography studio management software",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About PhotoOS | Built for Modern Photography Studios",
     description:
-      "Learn how PhotoOS empowers studios and photographers with AI workflows, smart client galleries, and seamless photo delivery.",
+      "Learn how PhotoOS empowers photographers with AI studio management, sub-second face matching, client proofing galleries, and creative team collaboration.",
     url: "/about",
     type: "website",
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About PhotoOS | Built for Modern Photography Studios",
     description:
-      "Learn how PhotoOS empowers studios and photographers with AI workflows, smart client galleries, and seamless photo delivery.",
+      "Learn how PhotoOS empowers photographers with AI studio management, sub-second face matching, client proofing galleries, and creative team collaboration.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

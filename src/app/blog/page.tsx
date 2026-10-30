@@ -9,7 +9,7 @@ import { blogPosts } from "@/lib/blog-data";
 export const metadata: Metadata = {
   title: "Photography & AI Studio Blog | Guides & Workflow Insights",
   description:
-    "Expert guides, tutorials, and practical insights on AI face search, client galleries, photography studio CRM, mobile apps, and business growth from PhotoOS.",
+    "Expert guides and tutorials on AI face search, client photo galleries, studio CRM, proofing, and photography business growth strategies from PhotoOS.",
   keywords: [
     "photography business blog",
     "AI photography guides",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Photography & AI Studio Blog | PhotoOS",
     description:
-      "Expert guides and practical tutorials for photography studios covering AI, client galleries, CRM, and business growth.",
+      "Expert guides and tutorials on AI face search, client photo galleries, studio CRM, proofing, and photography business growth strategies from PhotoOS.",
     url: "/blog",
     type: "website",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Photography & AI Studio Blog | PhotoOS",
     description:
-      "Expert guides and practical tutorials for photography studios covering AI, client galleries, CRM, and business growth.",
+      "Expert guides and tutorials on AI face search, client photo galleries, studio CRM, proofing, and photography business growth strategies from PhotoOS.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

@@ -6,7 +6,7 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Privacy Policy | PhotoOS",
   description:
-    "PhotoOS Privacy Policy explains how information may be collected and processed to provide authentication, studio management, media management, workflow, communication and related platform services.",
+    "Read the PhotoOS Privacy Policy to learn how we protect your account data, studio media, facial privacy, client galleries, and platform security standards.",
   keywords: [
     "PhotoOS Privacy Policy",
     "privacy policy",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Privacy Policy | PhotoOS",
     description:
-      "Learn how PhotoOS may collect and process information required to provide and secure its platform services.",
+      "Read the PhotoOS Privacy Policy to learn how we protect your account data, studio media, facial privacy, client galleries, and platform security standards.",
     url: "/privacy-policy",
     siteName: "PhotoOS",
     type: "website",

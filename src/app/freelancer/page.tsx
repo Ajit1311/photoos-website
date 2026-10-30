@@ -18,7 +18,7 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Freelancer Creative Network | Hire Photographers & Editors",
   description:
-    "Join or hire from the PhotoOS Freelancer Marketplace. Connect with verified second shooters, wedding cinematographers, drone pilots, and photo editors for studios.",
+    "Join or hire from the PhotoOS Creative Marketplace. Connect with verified second shooters, wedding cinematographers, drone pilots, and editors for studios.",
   keywords: [
     "freelance photographer network",
     "hire second shooter",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Freelancer Creative Network | PhotoOS",
     description:
-      "Connect with verified second shooters, wedding cinematographers, drone pilots, and photo editors on PhotoOS.",
+      "Join or hire from the PhotoOS Creative Marketplace. Connect with verified second shooters, wedding cinematographers, drone pilots, and editors for studios.",
     url: "/freelancer",
     type: "website",
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Freelancer Creative Network | PhotoOS",
     description:
-      "Join or hire from the PhotoOS Freelancer Marketplace for photography studios.",
+      "Join or hire from the PhotoOS Creative Marketplace. Connect with verified second shooters, wedding cinematographers, drone pilots, and editors for studios.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

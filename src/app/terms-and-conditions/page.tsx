@@ -6,7 +6,7 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Terms and Conditions | PhotoOS",
   description:
-    "Read the PhotoOS Terms and Conditions governing access to and use of the PhotoOS software-as-a-service platform.",
+    "Read the PhotoOS Terms and Conditions governing subscription plans, studio usage, client photo galleries, billing policies, and SaaS platform guidelines.",
   keywords: [
     "PhotoOS Terms and Conditions",
     "PhotoOS terms",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Terms and Conditions | PhotoOS",
     description:
-      "Terms governing access to and use of the PhotoOS software-as-a-service platform.",
+      "Read the PhotoOS Terms and Conditions governing subscription plans, studio usage, client photo galleries, billing policies, and SaaS platform guidelines.",
     url: "/terms-and-conditions",
     siteName: "PhotoOS",
     type: "website",

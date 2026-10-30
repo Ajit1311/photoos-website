@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pricing & Plans | Studio Management & AI Face Search | PhotoOS",
   description:
-    "Explore PhotoOS plans for photographers and studios starting with a 7-day free trial. AI face search, unlimited client galleries, photo proofing, CRM, and marketplace access.",
+    "Compare flexible PhotoOS pricing plans with a 7-day free trial. AI face matching, client galleries, proofing, CRM, and freelance marketplace for studios.",
   keywords: [
     "PhotoOS pricing",
     "photography software pricing",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PhotoOS Pricing & Plans | Photography Studio Software",
     description:
-      "Explore flexible PhotoOS plans with a 7-day free trial. AI face matching, client galleries, proofing, and studio workflows.",
+      "Compare flexible PhotoOS pricing plans with a 7-day free trial. AI face matching, client galleries, proofing, CRM, and freelance marketplace for studios.",
     url: "/pricing",
     type: "website",
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PhotoOS Pricing & Plans | Photography Studio Software",
     description:
-      "Explore flexible PhotoOS plans with a 7-day free trial. AI face matching, client galleries, proofing, and studio workflows.",
+      "Compare flexible PhotoOS pricing plans with a 7-day free trial. AI face matching, client galleries, proofing, CRM, and freelance marketplace for studios.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Compare Studio Plans & Features | PhotoOS vs Alternatives",
   description:
-    "Compare PhotoOS studio plans side-by-side. Storage limits, AI face indexing quotas, client gallery limits, watermark options, and freelancer hiring features.",
+    "Compare PhotoOS studio plans side by side. Storage quotas, AI face indexing limits, client galleries, proofing options, and freelancer hiring features.",
   keywords: [
     "compare photography software plans",
     "PhotoOS plan comparison",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Compare PhotoOS Plans & Features",
     description:
-      "Detailed side-by-side comparison of PhotoOS plans, limits, and studio capabilities.",
+      "Compare PhotoOS studio plans side by side. Storage quotas, AI face indexing limits, client galleries, proofing options, and freelancer hiring features.",
     url: "/pricing/compare",
     type: "website",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Compare PhotoOS Plans & Features",
     description:
-      "Detailed side-by-side comparison of PhotoOS plans, limits, and studio capabilities.",
+      "Compare PhotoOS studio plans side by side. Storage quotas, AI face indexing limits, client galleries, proofing options, and freelancer hiring features.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

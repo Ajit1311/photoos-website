@@ -19,7 +19,7 @@ import ContactForm from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact PhotoOS | Studio Sales, Product Demo & Support",
   description:
-    "Get in touch with the PhotoOS team for product demos, studio onboarding, sales inquiries, partnerships, or customer support via support@photoos.in.",
+    "Contact the PhotoOS team for studio onboarding, product demos, sales inquiries, partnerships, or customer support via WhatsApp and support@photoos.in.",
   keywords: [
     "PhotoOS contact",
     "contact PhotoOS support",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact PhotoOS | Studio Sales, Product Demo & Support",
     description:
-      "Talk to PhotoOS about photography studio management, AI face search, client galleries, and business solutions.",
+      "Contact the PhotoOS team for studio onboarding, product demos, sales inquiries, partnerships, or customer support via WhatsApp and support@photoos.in.",
     url: "/contact",
     siteName: "PhotoOS",
     type: "website",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact PhotoOS | Studio Sales, Product Demo & Support",
     description:
-      "Talk to PhotoOS about photography studio management, AI face search, and client galleries.",
+      "Contact the PhotoOS team for studio onboarding, product demos, sales inquiries, partnerships, or customer support via WhatsApp and support@photoos.in.",
     images: ["/logo/photoos-logo-v2.png"],
   },
 };

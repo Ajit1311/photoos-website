@@ -21,7 +21,7 @@ export const blogPosts: BlogPost[] = [
     slug: "ai-face-search-for-photographers",
     title: "AI Face Search for Photographers: How AI Makes Photo Delivery Faster",
     excerpt:
-      "Discover how AI face search can help photographers and studios make large event galleries easier for clients to explore, discover and share.",
+      "Discover how AI face search helps photography studios deliver event photos faster, streamline client selection, and create delightful gallery experiences.",
     category: "AI & Photography",
     date: "2026-09-27",
     readTime: "7 min read",
@@ -105,7 +105,7 @@ export const blogPosts: BlogPost[] = [
     slug: "photography-client-gallery-guide",
     title: "How to Build a Better Client Gallery Experience for Your Photography Business",
     excerpt:
-      "A practical guide to creating photography client galleries that are easy to navigate, mobile-friendly and designed around the client experience.",
+      "A practical guide to creating photography client galleries that are fast, mobile-friendly, beautifully branded, and built around the client experience.",
     category: "Client Experience",
     date: "2026-09-27",
     readTime: "6 min read",
@@ -193,7 +193,7 @@ export const blogPosts: BlogPost[] = [
     slug: "photography-crm-guide",
     title: "Photography CRM: The Complete Guide to Managing Clients, Events and Deliveries",
     excerpt:
-      "Learn what a photography CRM should manage, from leads and clients to events, galleries, communication and delivery.",
+      "Learn what a photography CRM should manage, from lead capture and client booking to smart galleries, proofing, team communication, and automated delivery.",
     category: "Studio Management",
     date: "2026-09-27",
     readTime: "8 min read",
@@ -289,7 +289,7 @@ export const blogPosts: BlogPost[] = [
     slug: "photography-client-app",
     title: "How a Mobile Photography Client App Improves the Client Experience",
     excerpt:
-      "Why mobile-first photo delivery, galleries and communication are becoming important parts of the modern photography client journey.",
+      "Discover why mobile-first photo delivery, digital client galleries, AI face search, and instant communication transform modern photography client journeys.",
     category: "Mobile & Client Experience",
     date: "2026-09-27",
     readTime: "6 min read",
@@ -369,7 +369,7 @@ export const blogPosts: BlogPost[] = [
     slug: "photography-business-marketing",
     title: "Photography Business Marketing: How to Turn Client Galleries Into More Bookings",
     excerpt:
-      "A practical photography marketing strategy for turning great client experiences, galleries and referrals into a stronger studio growth engine.",
+      "Learn photography marketing strategies for turning client gallery experiences, social referrals, and AI workflows into predictable studio business growth.",
     category: "Marketing",
     date: "2026-09-27",
     readTime: "8 min read",

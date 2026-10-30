@@ -6,7 +6,7 @@ import "./globals.css";
 const siteUrl = "https://photoos.in";
 const siteName = "PhotoOS";
 const siteDescription =
-  "PhotoOS is the premier AI-powered photography studio management platform. Featuring sub-second AI face matching, high-res client galleries, photo proofing & selection, studio CRM, and a creative freelancer network.";
+  "PhotoOS is an AI photography studio platform with instant face match galleries, client proofing, CRM, and freelancer network for modern photographers.";
 
 export const viewport: Viewport = {
   themeColor: "#0A3F61",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "Run your photography business smarter with AI-powered studio workflows, client galleries, instant selfie face matching, photo proofing, and delivery.",
+      "Manage your photography studio with AI-powered workflows, client galleries, instant face matching, photo proofing, CRM, and creative freelancer hiring.",
     url: siteUrl,
     siteName,
     type: "website",
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PhotoOS | AI-Powered Photography Studio Management Platform",
     description:
-      "The intelligent operating system for modern photography businesses. AI face matching, smart galleries, client proofing & CRM.",
+      "The intelligent operating system for modern photography businesses. AI face matching, smart galleries, client proofing, and studio CRM tools.",
     images: ["/logo/photoos-logo-v2.png"],
     creator: "@photoos_in",
   },
@@ -161,7 +161,7 @@ const jsonLd = {
       applicationCategory: "BusinessApplication, PhotographySoftware",
       operatingSystem: "Web, iOS, Android",
       description:
-        "AI-powered photography studio management platform with sub-second selfie face matching, high-res client galleries, photo proofing, CRM, and freelancer network.",
+        "AI-powered photography studio management platform with sub-second face matching, client galleries, photo proofing, CRM, and freelancer network.",
       url: "https://photoos.in",
       offers: {
         "@type": "AggregateOffer",
