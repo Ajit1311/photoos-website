@@ -90,7 +90,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/photoossoftwarepvtltd"
+                  href="https://www.instagram.com/photoos_software_pvt_ltd"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="PhotoOS Software Pvt Ltd on Instagram"
@@ -102,7 +102,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://www.facebook.com/photoossoftwarepvtltd"
+                  href="https://www.facebook.com/photoospvtltd"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="PhotoOS Software Pvt Ltd on Facebook"

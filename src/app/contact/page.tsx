@@ -213,7 +213,7 @@ export default function ContactPage() {
                 </span>
                 <div className="mt-3 flex items-center gap-3">
                   <a
-                    href="https://www.instagram.com/photoossoftwarepvtltd"
+                    href="https://www.instagram.com/photoos_software_pvt_ltd"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-xl border border-pink-200 bg-pink-50/60 px-3.5 py-2 text-xs font-bold text-pink-700 transition hover:bg-pink-100"
@@ -225,7 +225,7 @@ export default function ContactPage() {
                   </a>
 
                   <a
-                    href="https://www.facebook.com/photoossoftwarepvtltd"
+                    href="https://www.facebook.com/photoospvtltd"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-xl border border-blue-200 bg-blue-50/60 px-3.5 py-2 text-xs font-bold text-blue-700 transition hover:bg-blue-100"

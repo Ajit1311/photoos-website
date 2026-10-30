@@ -128,8 +128,8 @@ const jsonLd = {
       email: "support@photoos.in",
       telephone: "+919699599142",
       sameAs: [
-        "https://www.instagram.com/photoossoftwarepvtltd",
-        "https://www.facebook.com/photoossoftwarepvtltd",
+        "https://www.instagram.com/photoos_software_pvt_ltd",
+        "https://www.facebook.com/photoospvtltd",
         "https://wa.me/919699599142",
       ],
       contactPoint: [
