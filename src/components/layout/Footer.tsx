@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ShieldCheck, Sparkles, ArrowRight, Mail } from "lucide-react";
+import { ShieldCheck, Sparkles, ArrowRight, Mail, MapPin } from "lucide-react";
 
 const productLinks = [
   { label: "Smart Galleries", href: "/#features" },
@@ -175,6 +175,10 @@ export default function Footer() {
                 </svg>
                 +91 9699599142 (WhatsApp)
               </a>
+              <div className="pt-2 text-xs text-slate-400 flex items-start gap-1.5">
+                <MapPin size={13} className="text-[#3495A1] shrink-0 mt-0.5" />
+                <span>Gadhinglaj, Kolhapur, Maharashtra 416502</span>
+              </div>
             </div>
           </div>
 

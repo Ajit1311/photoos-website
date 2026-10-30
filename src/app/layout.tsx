@@ -127,6 +127,14 @@ const jsonLd = {
       },
       email: "support@photoos.in",
       telephone: "+919699599142",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Gadhinglaj",
+        addressLocality: "Gadhinglaj, Kolhapur",
+        addressRegion: "Maharashtra",
+        postalCode: "416502",
+        addressCountry: "IN",
+      },
       sameAs: [
         "https://www.instagram.com/photoos_software_pvt_ltd",
         "https://www.facebook.com/photoospvtltd",

@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   Clock3,
   Mail,
+  MapPin,
   MessageCircle,
   Phone,
   Send,
@@ -190,6 +191,22 @@ export default function ContactPage() {
                   className="ml-auto text-slate-300 transition group-hover:translate-x-1 group-hover:text-[#3495A1]"
                 />
               </a>
+
+              <div className="flex items-start gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#0A3F61]/5 text-[#0A3F61]">
+                  <MapPin size={21} />
+                </span>
+
+                <div>
+                  <span className="block text-xs font-bold uppercase tracking-wider text-slate-400">
+                    Office Address
+                  </span>
+                  <span className="mt-1 block font-semibold text-[#0A3F61] leading-relaxed">
+                    PhotoOS Software Pvt Ltd<br />
+                    Gadhinglaj, Kolhapur, Maharashtra 416502
+                  </span>
+                </div>
+              </div>
 
               <div className="flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#3495A1]/10 text-[#3495A1]">
