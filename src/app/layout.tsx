@@ -197,6 +197,13 @@ export default function RootLayout({
         />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
 
+        {/* Google AdSense Verification & Auto Ads */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2185745695212755"
+          crossOrigin="anonymous"
+        />
+
         {/* Structured Data (JSON-LD) */}
         <script
           type="application/ld+json"
@@ -243,13 +250,6 @@ export default function RootLayout({
           }}
         />
 
-        {/* Google AdSense - lazyOnload to move out of critical rendering path and prevent forced reflow */}
-        <Script
-          id="google-adsense"
-          strategy="lazyOnload"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2185745695212755"
-          crossOrigin="anonymous"
-        />
         {children}
         <ClientWidgets />
       </body>
