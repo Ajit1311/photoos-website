@@ -111,7 +111,7 @@ const workflowSteps = [
 ];
 
 export default function CorporatePage() {
-  const corpLoginUrl = "https://corp.photoos.in/login";
+  const corpLoginUrl = "https://app.photoos.in/login?mode=corporate";
 
   return (
     <div className="min-h-screen bg-white text-[#0f172a] selection:bg-[#3495A1] selection:text-white">
