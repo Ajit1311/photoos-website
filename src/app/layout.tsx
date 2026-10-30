@@ -138,6 +138,7 @@ const jsonLd = {
       sameAs: [
         "https://www.instagram.com/photoos_software_pvt_ltd",
         "https://www.facebook.com/photoospvtltd",
+        "https://www.linkedin.com/company/photoos-software-pvt-ltd",
         "https://wa.me/919699599142",
       ],
       contactPoint: [
@@ -203,6 +204,27 @@ const jsonLd = {
   ],
 };
 
+const corporationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "PhotoOS Software Pvt. Ltd",
+  "alternateName": "PhotoOS",
+  "url": "https://photoos.in/",
+  "logo": "https://photoos.in/",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "9699599142",
+    "contactType": "customer service",
+    "areaServed": "IN",
+    "availableLanguage": ["en", "Marathi", "Hindi"],
+  },
+  "sameAs": [
+    "https://www.facebook.com/photoospvtltd",
+    "https://www.instagram.com/photoos_software_pvt_ltd",
+    "https://www.linkedin.com/company/photoos-software-pvt-ltd",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -231,6 +253,12 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(corporationSchema),
+          }}
         />
       </head>
       <body>
