@@ -19,27 +19,6 @@ import {
 import type { Variants } from "framer-motion";
 
 export default function HeroSection() {
-  const containerVariants: Variants = {
-    hidden: { opacity: 1 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.06,
-      },
-    },
-  };
-
-  const itemVariants: Variants = {
-    hidden: { opacity: 1, y: 0 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.3,
-      },
-    },
-  };
-
   const previewVariants: Variants = {
     hidden: { opacity: 0, scale: 0.94, y: 30 },
     visible: {
@@ -69,15 +48,10 @@ export default function HeroSection() {
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <div className="grid items-center gap-14 lg:grid-cols-12 lg:gap-8">
-          {/* LEFT: Hero Copy & Reveal */}
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            className="text-white lg:col-span-7 xl:col-span-6"
-          >
+          {/* LEFT: Hero Copy & Reveal (Pure static HTML/CSS to guarantee 0ms LCP render delay) */}
+          <div className="text-white lg:col-span-7 xl:col-span-6">
             {/* Top Pill / Badge */}
-            <motion.div variants={itemVariants} className="mb-6 inline-flex">
+            <div className="mb-6 inline-flex">
               <div className="inline-flex items-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-slate-100 shadow-xl backdrop-blur-xl">
                 <span className="relative flex h-2 w-2">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#EF8619] opacity-75" />
@@ -89,35 +63,26 @@ export default function HeroSection() {
                   <Sparkles size={13} /> AI Engine v2
                 </span>
               </div>
-            </motion.div>
+            </div>
 
             {/* Main Headline */}
-            <motion.h1
-              variants={itemVariants}
-              className="text-4xl font-black leading-[1.05] tracking-[-0.04em] sm:text-6xl lg:text-[64px]"
-            >
+            <h1 className="text-4xl font-black leading-[1.05] tracking-[-0.04em] sm:text-6xl lg:text-[64px]">
               Your Photography Business.{" "}
               <span className="block mt-1 bg-gradient-to-r from-[#EF8619] via-[#ffaa47] to-[#3495A1] bg-clip-text text-transparent">
                 Reimagined with AI.
               </span>
-            </motion.h1>
+            </h1>
 
             {/* Subtitle */}
-            <motion.p
-              variants={itemVariants}
-              className="mt-6 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg sm:leading-8"
-            >
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg sm:leading-8">
               From instant selfie-powered face matching and interactive client
               galleries to effortless photo selection, chat, and talent hiring
               — PhotoOS puts your entire studio workflow into one powerful
               workspace.
-            </motion.p>
+            </p>
 
             {/* CTAs */}
-            <motion.div
-              variants={itemVariants}
-              className="mt-8 flex flex-col gap-3.5 sm:flex-row sm:items-center"
-            >
+            <div className="mt-8 flex flex-col gap-3.5 sm:flex-row sm:items-center">
               <Link
                 href="/pricing"
                 className="group relative inline-flex items-center justify-center gap-2.5 overflow-hidden rounded-full bg-gradient-to-r from-[#EF8619] to-[#f4932b] px-8 py-4 text-base font-bold text-white shadow-xl shadow-[#EF8619]/25 transition duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#EF8619]/40 active:scale-[0.99]"
@@ -137,13 +102,10 @@ export default function HeroSection() {
                 <Play size={16} className="text-[#3495A1] fill-[#3495A1]" />
                 <span>See AI in Action</span>
               </a>
-            </motion.div>
+            </div>
 
             {/* Value Proof Badges */}
-            <motion.div
-              variants={itemVariants}
-              className="mt-10 flex flex-wrap items-center gap-y-3 gap-x-6 border-t border-white/10 pt-6 text-xs text-slate-300 sm:text-sm"
-            >
+            <div className="mt-10 flex flex-wrap items-center gap-y-3 gap-x-6 border-t border-white/10 pt-6 text-xs text-slate-300 sm:text-sm">
               <div className="flex items-center gap-2">
                 <div className="flex h-5 w-5 items-center justify-center rounded-full bg-[#3495A1]/20 text-[#3495A1]">
                   <Check size={12} strokeWidth={3} />
@@ -162,8 +124,8 @@ export default function HeroSection() {
                 </div>
                 <span>Private & Secure</span>
               </div>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
 
           {/* RIGHT: Studio Dashboard Mockup Showcase */}
           <motion.div

@@ -827,7 +827,7 @@ const visiblePlans = [
                         loop
                         playsInline
                         preload="none"
-                        poster="/images/hero-wedding.jpg"
+                        poster="/images/video-poster.webp"
                         aria-label="PhotoOS AI Face Matching demonstration"
                       >
                         <track

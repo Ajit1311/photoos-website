@@ -1,5 +1,4 @@
-import PhotoOSChatbot from "@/components/chat/PhotoOSChatbot";
-import PhotoSecurityGuard from "@/components/security/PhotoSecurityGuard";
+import ClientWidgets from "@/components/common/ClientWidgets";
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
@@ -215,22 +214,22 @@ export default function RootLayout({
           />
         </noscript>
 
-        {/* Google Tag Manager (gtm.js) - loaded after interactive to prevent blocking LCP */}
+        {/* Google Tag Manager (gtm.js) - loaded with lazyOnload so it never blocks LCP or initial hydration */}
         <Script
           id="gtm-container"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtm.js?id=GTM-N46CW2TV"
         />
 
         {/* Google tag (gtag.js) */}
         <Script
           id="gtag-lib"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-6DDPEYLZSB"
         />
         <Script
           id="gtag-config"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -252,8 +251,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         {children}
-        <PhotoSecurityGuard />
-        <PhotoOSChatbot />
+        <ClientWidgets />
       </body>
     </html>
   );

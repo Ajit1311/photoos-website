@@ -194,7 +194,7 @@ export default function AIFaceMatchingShowcase() {
                   loop
                   playsInline
                   preload="none"
-                  poster="/images/hero-wedding.jpg"
+                  poster="/images/video-poster.webp"
                   aria-label="AI-powered face matching in PhotoOS"
                   className="h-[360px] sm:h-[460px] w-full rounded-2xl object-cover"
                 >

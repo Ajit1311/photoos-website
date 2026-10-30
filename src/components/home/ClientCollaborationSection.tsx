@@ -41,6 +41,8 @@ export default function ClientCollaborationSection() {
                   src="/images/client-collaboration.jpg"
                   alt="Photography clients and studio reviewing album photo proofing and leaving comments in PhotoOS"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+                  quality={80}
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0A3F61]/80 via-transparent to-transparent" />
