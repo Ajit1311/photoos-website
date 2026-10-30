@@ -826,9 +826,17 @@ const visiblePlans = [
                         muted
                         loop
                         playsInline
-                        preload="metadata"
+                        preload="none"
+                        poster="/images/hero-wedding.jpg"
                         aria-label="PhotoOS AI Face Matching demonstration"
-                      />
+                      >
+                        <track
+                          kind="captions"
+                          src="/captions/empty.vtt"
+                          srcLang="en"
+                          label="English"
+                        />
+                      </video>
                     </div>
                   </div>
                 </div>

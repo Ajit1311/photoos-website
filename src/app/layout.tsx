@@ -1,6 +1,7 @@
 import PhotoOSChatbot from "@/components/chat/PhotoOSChatbot";
 import PhotoSecurityGuard from "@/components/security/PhotoSecurityGuard";
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 const siteUrl = "https://photoos.in";
@@ -188,35 +189,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2185745695212755"
+        {/* Preconnect candidates to eliminate network connection latency */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link
+          rel="preconnect"
+          href="https://pagead2.googlesyndication.com"
           crossOrigin="anonymous"
         />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
 
-        {/* Google Tag Manager (gtm.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtm.js?id=GTM-N46CW2TV"
-        />
-
-        {/* Google tag (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-6DDPEYLZSB"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-6DDPEYLZSB');
-            `,
-          }}
-        />
+        {/* Structured Data (JSON-LD) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -232,6 +214,43 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
+
+        {/* Google Tag Manager (gtm.js) - loaded after interactive to prevent blocking LCP */}
+        <Script
+          id="gtm-container"
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-N46CW2TV"
+        />
+
+        {/* Google tag (gtag.js) */}
+        <Script
+          id="gtag-lib"
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-6DDPEYLZSB"
+        />
+        <Script
+          id="gtag-config"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-6DDPEYLZSB', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+
+        {/* Google AdSense - lazyOnload to move out of critical rendering path and prevent forced reflow */}
+        <Script
+          id="google-adsense"
+          strategy="lazyOnload"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2185745695212755"
+          crossOrigin="anonymous"
+        />
         {children}
         <PhotoSecurityGuard />
         <PhotoOSChatbot />

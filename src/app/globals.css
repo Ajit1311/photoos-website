@@ -96,7 +96,7 @@ img, video, canvas, [data-protected="true"] {
 
 @keyframes scanBeam {
   0% {
-    top: 0%;
+    transform: translateY(0);
     opacity: 0;
   }
   15% {
@@ -106,7 +106,7 @@ img, video, canvas, [data-protected="true"] {
     opacity: 1;
   }
   100% {
-    top: 100%;
+    transform: translateY(96px);
     opacity: 0;
   }
 }
@@ -141,6 +141,7 @@ img, video, canvas, [data-protected="true"] {
 
 .animate-scan-beam {
   animation: scanBeam 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  will-change: transform, opacity;
 }
 
 .animate-pulse-glow {

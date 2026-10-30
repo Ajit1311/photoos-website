@@ -61,6 +61,8 @@ export default function Header() {
             width={190}
             height={60}
             priority
+            sizes="(max-width: 640px) 150px, (max-width: 1024px) 170px, 185px"
+            quality={85}
             className="block h-auto w-[150px] object-contain sm:w-[170px] lg:w-[185px]"
           />
         </Link>

@@ -20,24 +20,22 @@ import type { Variants } from "framer-motion";
 
 export default function HeroSection() {
   const containerVariants: Variants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 1 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.12,
-        delayChildren: 0.1,
+        staggerChildren: 0.06,
       },
     },
   };
 
   const itemVariants: Variants = {
-    hidden: { opacity: 0, y: 24 },
+    hidden: { opacity: 1, y: 0 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.7,
-        ease: [0.16, 1, 0.3, 1] as [number, number, number, number],
+        duration: 0.3,
       },
     },
   };
@@ -207,9 +205,9 @@ export default function HeroSection() {
                       P
                     </div>
                     <div>
-                      <h4 className="text-sm font-bold text-white">
+                      <p className="text-sm font-bold text-white">
                         Royal Heritage Wedding
-                      </h4>
+                      </p>
                       <p className="text-xs text-slate-400">
                         2,450 Photos • 14 Albums • Udaipur Palace
                       </p>
@@ -231,6 +229,8 @@ export default function HeroSection() {
                       alt="PhotoOS AI Face Matching feature scanning wedding couple portrait in gallery"
                       width={500}
                       height={400}
+                      sizes="(max-width: 640px) 45vw, (max-width: 1024px) 25vw, 280px"
+                      quality={80}
                       className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105 pointer-events-none"
                     />
                     {/* Face Scan Bounding Box Overlay */}
@@ -238,8 +238,8 @@ export default function HeroSection() {
                       <div className="absolute -top-6 left-0 rounded-md bg-[#0A3F61] px-2 py-0.5 text-[10px] font-bold text-[#3495A1] border border-[#3495A1]/40 flex items-center gap-1 shadow-lg">
                         <ScanFace size={11} /> 99.8% Match
                       </div>
-                      {/* Scanning animated beam */}
-                      <div className="absolute inset-x-0 h-0.5 bg-gradient-to-r from-transparent via-[#3495A1] to-transparent shadow-[0_0_8px_#3495A1] animate-scan-beam" />
+                      {/* Scanning animated beam (GPU-composited with transform) */}
+                      <div className="absolute top-0 inset-x-0 h-0.5 bg-gradient-to-r from-transparent via-[#3495A1] to-transparent shadow-[0_0_8px_#3495A1] animate-scan-beam" />
                     </div>
 
                     <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between rounded-xl bg-black/60 px-2.5 py-1.5 backdrop-blur-md text-[11px] text-white">
@@ -256,6 +256,8 @@ export default function HeroSection() {
                       alt="PhotoOS interactive client photo proofing and album selection preview"
                       width={500}
                       height={400}
+                      sizes="(max-width: 640px) 45vw, (max-width: 1024px) 25vw, 280px"
+                      quality={80}
                       className="h-44 sm:h-52 w-full object-cover transition duration-500 group-hover:scale-105 pointer-events-none"
                     />
 

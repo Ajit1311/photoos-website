@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
   ScanFace,
   Sparkles,
@@ -35,6 +35,25 @@ const steps = [
 
 export default function AIFaceMatchingShowcase() {
   const [activeStep, setActiveStep] = useState(0);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldLoadVideo(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "250px" }
+    );
+
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <section id="ai" className="relative overflow-hidden bg-[#0A3F61] py-24 sm:py-32 text-white">
@@ -166,17 +185,26 @@ export default function AIFaceMatchingShowcase() {
               </div>
 
               {/* Video Element */}
-              <div className="relative overflow-hidden rounded-2xl bg-black">
+              <div ref={containerRef} className="relative overflow-hidden rounded-2xl bg-black">
                 <video
-                  src="/videos/ai-face-search.mp4"
-                  autoPlay
+                  ref={videoRef}
+                  src={shouldLoadVideo ? "/videos/ai-face-search.mp4" : undefined}
+                  autoPlay={shouldLoadVideo}
                   muted
                   loop
                   playsInline
-                  preload="metadata"
+                  preload="none"
+                  poster="/images/hero-wedding.jpg"
                   aria-label="AI-powered face matching in PhotoOS"
                   className="h-[360px] sm:h-[460px] w-full rounded-2xl object-cover"
-                />
+                >
+                  <track
+                    kind="captions"
+                    src="/captions/empty.vtt"
+                    srcLang="en"
+                    label="English"
+                  />
+                </video>
 
                 {/* Live Scanning Overlay Card */}
                 <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 rounded-2xl border border-white/20 bg-[#061826]/90 p-4 sm:p-5 text-white shadow-2xl backdrop-blur-xl">

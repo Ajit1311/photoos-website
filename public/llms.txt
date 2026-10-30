@@ -38,9 +38,9 @@ PhotoOS replaces fragmented tools (Google Drive, WhatsApp, Dropbox, spreadsheets
 - **Support**: Official support available via support@photoos.in.
 
 ## Relevant Links
-- Homepage: https://photoos.in
-- Pricing: https://photoos.in/pricing
-- Plan Comparison: https://photoos.in/pricing/compare
-- Freelancer Portal: https://photoos.in/freelancer
-- Blog & Guides: https://photoos.in/blog
-- Contact Support: https://photoos.in/contact
+- [PhotoOS Homepage](https://photoos.in): AI-Powered Photography Studio Management Platform
+- [Pricing & Plans](https://photoos.in/pricing): Flexible plans for photographers, studios, and agencies
+- [Plan Comparison](https://photoos.in/pricing/compare): Detailed feature comparison across all tiers
+- [Freelancer Marketplace](https://photoos.in/freelancer): Find and hire verified second shooters and cinematographers
+- [Blog & Guides](https://photoos.in/blog): Guides, tutorials, and photography business tips
+- [Contact Support](https://photoos.in/contact): Get in touch with the PhotoOS team
