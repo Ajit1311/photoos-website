@@ -27,11 +27,12 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     image: "/images/photo-studio.jpg",
     keywords: [
+      "selfie face search wedding photos India",
+      "QR code wedding photo sharing",
+      "WhatsApp photo delivery wedding guests",
+      "how to deliver wedding photos to guests",
+      "Kwikpic alternative India",
       "AI face search for photographers",
-      "AI photography software",
-      "photo face search",
-      "photography workflow automation",
-      "AI photo gallery",
     ],
     content: [
       {
@@ -111,11 +112,12 @@ export const blogPosts: BlogPost[] = [
     readTime: "6 min read",
     image: "/images/client-collaboration.jpg",
     keywords: [
+      "photo selection software for wedding album",
+      "how to deliver wedding photos to guests",
+      "Pixieset alternative India",
+      "Pic-Time alternative India",
       "photography client gallery",
-      "online photo gallery for photographers",
       "client photo delivery",
-      "photography gallery software",
-      "digital photo delivery",
     ],
     content: [
       {
@@ -199,9 +201,10 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     image: "/images/photo-editing.jpg",
     keywords: [
+      "wedding photographer CRM India",
+      "photography studio management software India",
+      "FotoOwl alternative India",
       "photography CRM",
-      "CRM for photographers",
-      "photography studio management software",
       "photography business management",
       "studio CRM",
     ],
@@ -295,11 +298,12 @@ export const blogPosts: BlogPost[] = [
     readTime: "6 min read",
     image: "/images/photoos-client-app-home.png",
     keywords: [
+      "WhatsApp photo delivery wedding guests",
+      "QR code wedding photo sharing",
+      "PhotoOS app",
+      "selfie face search wedding photos India",
       "photography client app",
-      "photo gallery app",
-      "photographer client app",
       "mobile photography gallery",
-      "client photo delivery app",
     ],
     content: [
       {
@@ -375,10 +379,11 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     image: "/images/hero-wedding.jpg",
     keywords: [
-      "photography business marketing",
-      "photography marketing strategy",
+      "photography software Maharashtra",
+      "photography software Kolhapur",
+      "photographer marketplace India",
+      "PhotoOS photography",
       "how to market a photography business",
-      "photography studio marketing",
       "photographer lead generation",
     ],
     content: [

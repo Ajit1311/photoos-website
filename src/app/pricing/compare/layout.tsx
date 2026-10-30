@@ -5,11 +5,13 @@ export const metadata: Metadata = {
   description:
     "Compare PhotoOS studio plans side by side. Storage quotas, AI face indexing limits, client galleries, proofing options, and freelancer hiring features.",
   keywords: [
+    "Kwikpic alternative India",
+    "FotoOwl alternative India",
+    "Pixieset alternative India",
+    "Pic-Time alternative India",
+    "photography studio management software India",
+    "wedding photographer CRM India",
     "compare photography software plans",
-    "PhotoOS plan comparison",
-    "photography studio feature comparison",
-    "AI face match limits",
-    "photography client gallery comparison",
   ],
   alternates: {
     canonical: "/pricing/compare",

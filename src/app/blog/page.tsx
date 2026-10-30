@@ -11,12 +11,14 @@ export const metadata: Metadata = {
   description:
     "Expert guides and tutorials on AI face search, client photo galleries, studio CRM, proofing, and photography business growth strategies from PhotoOS.",
   keywords: [
-    "photography business blog",
-    "AI photography guides",
-    "photography CRM guide",
-    "client photo gallery best practices",
-    "photography studio marketing",
-    "AI face match tutorials",
+    "WhatsApp photo delivery wedding guests",
+    "QR code wedding photo sharing",
+    "photo selection software for wedding album",
+    "how to deliver wedding photos to guests",
+    "Pixieset alternative India",
+    "Pic-Time alternative India",
+    "selfie face search wedding photos India",
+    "photography studio management software India",
     "PhotoOS blog",
   ],
   alternates: {

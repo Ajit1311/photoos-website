@@ -32,6 +32,13 @@ PhotoOS replaces fragmented tools (Google Drive, WhatsApp, Dropbox, spreadsheets
 ### 6. Studio CRM & Workflow Management
 - **Lead to Delivery**: Manage bookings, shoot schedules, contracts, milestone payments, and automated client notifications.
 
+## Comparison & Alternatives in India
+- **Kwikpic Alternative India & FotoOwl Alternative India**: Modern, sub-second AI facial recognition galleries with automated WhatsApp guest photo delivery and QR code wedding photo sharing.
+- **Pixieset Alternative India & Pic-Time Alternative India**: Seamless digital client galleries and photo selection software for wedding albums with Indian pricing and client proofing.
+- **Wedding Photographer CRM India**: End-to-end studio management from leads to final album delivery.
+- **Photographer Marketplace India**: On-demand network to hire wedding second shooters, cinematographers, drone pilots, and photo editors.
+- **Local Studio Technology**: Built for photography businesses in Kolhapur, Maharashtra, and nationwide across India.
+
 ## Pricing & Availability
 - **Free Trial**: 7-day fully functional free trial available for photography studios.
 - **Studio Plans**: Flexible monthly and annual plans starting at ₹399/month.

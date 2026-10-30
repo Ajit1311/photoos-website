@@ -31,24 +31,29 @@ export const metadata: Metadata = {
   category: "technology",
 
   keywords: [
-    "PhotoOS",
-    "PhotoOS Software Pvt Ltd",
-    "AI photography software",
-    "photography studio management software",
-    "AI face matching for photographers",
-    "client photo gallery software",
-    "photo selection and proofing software",
-    "wedding album photo selection software",
-    "photography CRM India",
-    "wedding photography gallery",
-    "photographer workflow software",
-    "selfie face search for weddings",
-    "QR code event photo sharing",
-    "freelance photographer marketplace",
-    "hire wedding second shooter India",
-    "photography business software India",
+    // Tier 1: Low competition + high intent
     "Kwikpic alternative India",
-    "FotoOwl alternative",
+    "FotoOwl alternative India",
+    "photographer marketplace India",
+    "hire wedding second shooter India",
+    "wedding photographer CRM India",
+    "photography studio management software India",
+    "selfie face search wedding photos India",
+
+    // Tier 2: Content & Search Intent
+    "WhatsApp photo delivery wedding guests",
+    "QR code wedding photo sharing",
+    "photo selection software for wedding album",
+    "how to deliver wedding photos to guests",
+    "Pixieset alternative India",
+    "Pic-Time alternative India",
+
+    // Tier 3: Local + Targeted Brand
+    "photography software Kolhapur",
+    "photography software Maharashtra",
+    "PhotoOS",
+    "PhotoOS photography",
+    "PhotoOS app",
   ],
 
   alternates: {

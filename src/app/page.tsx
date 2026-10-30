@@ -18,18 +18,29 @@ export const metadata: Metadata = {
   description:
     "PhotoOS is an AI photography studio platform with instant face match galleries, client proofing, CRM, and freelancer network for modern photographers.",
   keywords: [
+    // Tier 1: Low competition + high intent
+    "Kwikpic alternative India",
+    "FotoOwl alternative India",
+    "photographer marketplace India",
+    "hire wedding second shooter India",
+    "wedding photographer CRM India",
+    "photography studio management software India",
+    "selfie face search wedding photos India",
+
+    // Tier 2: Search & Workflow intent
+    "WhatsApp photo delivery wedding guests",
+    "QR code wedding photo sharing",
+    "photo selection software for wedding album",
+    "how to deliver wedding photos to guests",
+    "Pixieset alternative India",
+    "Pic-Time alternative India",
+
+    // Tier 3: Local + Targeted Brand
+    "photography software Kolhapur",
+    "photography software Maharashtra",
     "PhotoOS",
-    "photography studio management software",
-    "AI photography software",
-    "AI face matching for photographers",
-    "client photo gallery software",
-    "photo selection and proofing software",
-    "photography CRM",
-    "wedding photography gallery software",
-    "photographer workflow management",
-    "selfie face search for events",
-    "freelance photographer marketplace",
-    "photography business software India",
+    "PhotoOS photography",
+    "PhotoOS app",
   ],
   alternates: {
     canonical: "/",

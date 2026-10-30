@@ -20,12 +20,12 @@ export const metadata: Metadata = {
   description:
     "Join or hire from the PhotoOS Creative Marketplace. Connect with verified second shooters, wedding cinematographers, drone pilots, and editors for studios.",
   keywords: [
-    "freelance photographer network",
-    "hire second shooter",
+    "photographer marketplace India",
+    "hire wedding second shooter India",
     "wedding cinematographer marketplace",
     "drone pilot for photography",
     "freelance photo editor",
-    "PhotoOS creative network",
+    "freelance photographer network",
   ],
   alternates: {
     canonical: "/freelancer",
