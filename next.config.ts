@@ -47,6 +47,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
   compress: true,
+  trailingSlash: false,
 
   images: {
     formats: ["image/avif", "image/webp"],

@@ -286,9 +286,12 @@ const clearChat = () => {
     if (
       q.includes("support") ||
       q.includes("help") ||
-      q.includes("contact")
+      q.includes("contact") ||
+      q.includes("whatsapp") ||
+      q.includes("phone") ||
+      q.includes("call")
     ) {
-      return "I can help with product information, pricing and common questions. If you need personal assistance, choose “Talk to a human” and I can collect your details.";
+      return "You can reach the PhotoOS team directly via WhatsApp at +91 9699599142 or email support@photoos.in. You can also choose 'Talk to a human' to share your details.";
     }
 
     return fallbackResponse;
